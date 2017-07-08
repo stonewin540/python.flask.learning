@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Title</title>
+</head>
+<body>
+    {% if error %}
+        <h1>{{ error }}</h1>
+    {% else %}
+        <h1>{{ username }} logged in with {{ passwd }}</h1>
+    {% endif %}
+</body>
+</html>
